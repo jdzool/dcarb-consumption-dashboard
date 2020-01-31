@@ -7,7 +7,9 @@ Maps energy consumption in KWh to emissions in kg CO2. Thoughts about rates of d
 ## Install instructions 
 
 `conda install -c conda-forge watchdog`
+
 `pip install streamlit`
+
 `pip install altair`
 
 ## References
