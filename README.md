@@ -12,6 +12,9 @@ Maps energy consumption in KWh to emissions in kg CO2. Thoughts about rates of d
 
 `pip install altair`
 
+## Install instructions 
+To run `streamlit run llamas_energy_calc_exponential.py`
+
 ## References
 
 Conversation details from [https://www.carbonindependent.org/15.html](https://www.carbonindependent.org/15.html)
