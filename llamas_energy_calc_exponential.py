@@ -25,12 +25,12 @@ st.write("""
 
 st.header('Information of your consumption')
 
-x = st.slider("What is your energy consumption? (KWh)", 0, 10000, 5000)
+x = st.slider("What is your energy consumption? (KWh)", 0, 15000, 5000)
 
-y = st.slider("What percentage is your renewable energy? (%)", 0, 100, 50)
+y = st.slider("What percentage is your energy renewable? (%)", 0, 100, 50)
 st.write("Your renewable percentage is:", y)
 
-z = 100-y #  Amount of energy used
+z = 100-y #  Non-renewable 
 
 st.write("Your non-renewable percentage is:", z)
 
@@ -38,9 +38,9 @@ st.write("Your non-renewable percentage is:", z)
 
 #The CO2 emission factor used is 0.309 kge / kWh [BEIS (2018), 44]
 #This includes an allowance for the 7.8% of transmission/distribution losses on the national grid [44].
-co2_emissions = 0.309 * x * z # conversion factor * non-renewable energy
+co2_emissions = 0.309 * (z/100) * x # conversion factor * non-renewable energy
 
-st.write("Carbon emissions are 0.309 x non-renewable emissions")
+st.write("Carbon emissions are: 0.309 x non-renewable generation")
 st.write("Your estimated carbon emissions are:", co2_emissions, " kg")
 
 st.header('Information of your journey to zero emissions')
