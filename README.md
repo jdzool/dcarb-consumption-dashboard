@@ -6,6 +6,8 @@ Maps energy consumption in KWh to emissions in kg CO2. Thoughts about rates of d
 
 ## Install instructions 
 
+You will need the Anaconda python environment installed -- [here](https://www.anaconda.com/distribution/#download-section)
+
 `conda install -c conda-forge watchdog`
 
 `pip install streamlit`
