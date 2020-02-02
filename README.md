@@ -2,7 +2,7 @@
 
 Simple dashboard designed with [streamlit](https://www.streamlit.io/).
 
-Maps energy consumption in KWh to emissions in kg CO2. Thoughts about rates of decarbonisation. 
+Maps energy consumption in KWh to emissions in kg CO2. And then prompts thoughts about the rate of decarbonisation possible. 
 
 ## Install instructions 
 
