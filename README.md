@@ -2,11 +2,13 @@
 
 Simple dashboard designed with [streamlit](https://www.streamlit.io/). Built as part of the Valtech Climate Emergency Hackathon. 
 
+<<<<<<< HEAD
 Plots energy consumption in KWh to emissions in kg CO2. The second chart gives shows a sliding scale towards full decarbonisation from energy consumption.  
 
-## Install instructions 
+You will need the Anaconda python environment installed -- [here](https://www.anaconda.com/distribution/#download-section)
 
 If you want to bork your Spyder environment do this: 
+`conda install -c conda-forge watchdog`
 
     conda install -c conda-forge watchdog
     pip install -r requirements.txt
