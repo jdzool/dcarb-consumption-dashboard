@@ -43,7 +43,7 @@ co2_emissions = 0.309 * (z/100) * x # conversion factor * non-renewable energy
 st.write("Carbon emissions are: 0.309 x non-renewable generation")
 st.write("Your estimated carbon emissions are:", co2_emissions, " kg")
 
-st.header('Information of your journey to zero emissions')
+st.header('Your journey to zero emissions')
 
 x = [2020, 2050]
 y = [co2_emissions, 0.01]
@@ -61,12 +61,12 @@ df['Year'] = xf
 df['CO2 emissions (kg)'] = func(xf, a, b)
 
 basic_chart = alt.Chart(df).mark_line().encode(
-    x='Year',
-    y='CO2 emissions (kg)'
-   ).properties(
-    width=700,
-    height=400
-    )
+    x=alt.X('Year', axis=alt.Axis(format='.0d', title='Year')),
+    y=alt.X('CO2 emissions (kg)', axis=alt.Axis(format='.0d', title='CO2 emissions (kg)')) 
+    ).properties(
+        width=700,
+        height=400
+        )
 
 st.altair_chart(basic_chart)
 
