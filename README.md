@@ -7,7 +7,6 @@ Plots energy consumption in KWh to emissions in kg CO2. The second chart gives s
 You will need the Anaconda python environment installed -- [here](https://www.anaconda.com/distribution/#download-section)
 
 If you want to bork your Spyder environment do this: 
-`conda install -c conda-forge watchdog`
 
     conda install -c conda-forge watchdog
     pip install -r requirements.txt
