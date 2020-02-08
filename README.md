@@ -2,7 +2,6 @@
 
 Simple dashboard designed with [streamlit](https://www.streamlit.io/). Built as part of the Valtech Climate Emergency Hackathon. 
 
-<<<<<<< HEAD
 Plots energy consumption in KWh to emissions in kg CO2. The second chart gives shows a sliding scale towards full decarbonisation from energy consumption.  
 
 You will need the Anaconda python environment installed -- [here](https://www.anaconda.com/distribution/#download-section)
@@ -29,8 +28,6 @@ To run `streamlit run llamas_energy_calc_exponential.py`
 
 Conversation details from [https://www.carbonindependent.org/15.html](https://www.carbonindependent.org/15.html)
 
-## Example Screenshot 
+## Screenshot 
 
-![alt text][logo]
-
-[logo]: ./consumption_dashboard.png "Example ouput"
+<img src="./consumption_dashboard.png " height="600" align="middle">
